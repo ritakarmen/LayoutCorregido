@@ -1,0 +1,97 @@
+/* Ingresa tu css aqui */
+.contenedor{
+	width: 1000px;
+	margin: auto;
+}
+#logo img{
+	width: 1000px;
+}
+#caratula img{
+	width: 1000px;
+}
+.cajacoders img{
+	width: 300px;
+}
+.linea{
+background-color: black;
+height: 3px;
+width: 90px;
+margin-left: 45%;
+margin-top: 5%;
+}
+.linea2{
+background-color: black;
+height: 8px;
+width: 90px;
+
+}
+#subtitulo{
+	padding: 20px 0px 12px;
+}
+p{
+	text-align: center;
+	font-size: 35px;
+	font-family: 'Lobster', Times;
+	padding: 5px;
+}
+nav{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	margin-bottom: 40px;
+}
+ul{
+	margin-left: 10%;
+}
+li{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 30px;
+	border-right: 2px solid black;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 10px;
+	margin:auto;
+}
+li:last-child{
+	border-right: none;
+	margin-left: 15px;
+}
+.contenedor #logo {
+		margin-top: 5px;
+		margin-bottom: 10px;
+}
+#caratula {
+		margin: auto;
+}
+#subtitulo{
+	margin-top: 20px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	font-size: 28px;
+}
+.foto{
+	display: inline-block;
+	position: relative;
+	margin: 10px;
+}
+.overLay {
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 100%;
+	height: 100%;
+}
+span{
+	position: absolute;
+	left: 110px;
+	bottom: 10px;
+	color: white;
+	font-size: 20px;
+}
+ a span{
+	color:white;
+}
+ a:hover span{
+	color:#D7F6F7;
+}
